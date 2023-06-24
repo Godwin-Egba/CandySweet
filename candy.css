@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5d9d5;
+}
+
+.blub h2{
+    color: #EA1626;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.blub p{
+    color: #f498b8;
+    font-weight: 1.125rem;
+    line-height: 2;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    font-size: 1.5rem;
+    color: #EA1626;
+}
+
+#mainNavbar .navbar-brand{
+    color: #EA1626 !important;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif
+}
+
+#headingline span{
+    color: #EA1626;
+}
+#headingline h1{
+ font-weight: 100;
+ font-size: 2.5rem;
+}
+.fa{
+    font-size: 2rem;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.narbar.scrolled {
+    background: rgb(222, 192, 222);
+}
+
+h4{
+    color: #EA1626;
+}
+
+@media(max-width:1200px) {
+    #headingline h1{
+        font-weight: 100;
+        font-size: 2rem;
+ 
+       }
+
+       #mainNavbar .navbar-brand{
+        color: #EA1626 !important;
+        font-size: 1.5rem;
+        font-weight: 800;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+
